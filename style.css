@@ -8,7 +8,7 @@ body
 {background-color: #777;
 	width: 960px}
 
-<div> {margin: 15px}
+<div> {margin: 5px}
 
 
 
@@ -24,7 +24,8 @@ p {}
 text-align: center;
 height: 20px;
 width: 960px;
-
+margin: 5px;
+padding-top: 
 }
 
 
@@ -33,44 +34,56 @@ width: 960px;
 { background: #ebebeb;
   text-align: center;
   width: 960px;
+  margin: 5px;
   float}
 
 
 
 /*  -----------------------------  */
+.leftbox{width: 480px;
+}
+
+p.clear {
+    clear: both;
+}
 .section
 { background: #ebebeb;
  text-align: center;
- width: 480px;
+ margin: 5px,
+ auto;
  float: left;
-}
-
-p.clear {
-    clear: both;
-}
+ }
 
 
-			.article
+			#article
 
-				{background color: #777;
-			      text-align: center;
+				{text-align: center;
+			      margin: auto;
+			      background: #777;
+			      float: left;
+			      position: relative;
 			     }
-p.clear {
-    clear: both;
-}
+
 			
 			.h1
 				{background: #ebebeb;
  				 text-align: center;
+ 				 
+
  				}
+
+
+			.pbox
+				{background: #ebebeb;	
+				text-align: center;
+				
+			
+  				} 
+
+
 p.clear {
     clear: both;
 }
-
-			.p
-				{background: #ebebeb;	
-				text-align: center;
-  				} 
 
 /*  -----------------------------  */
 
@@ -78,9 +91,13 @@ p.clear {
  {background: #ebebeb;	
   text-align: center;
   	width: 480px;
-  	float: left;
+  	margin: 5px, auto;
+  	float: left
   	}
 
+p.clear {
+    clear: both;
+}
 
 /*  -----------------------------  */
 
@@ -88,6 +105,9 @@ p.clear {
 .footer
 {background: #ebebeb;
 text-align: center;
+margin: 5px;
 width: 960px;
+float: left;
+
 
 }
