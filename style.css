@@ -1,113 +1,57 @@
-
-
-/* help */
-
-* {box-sizing: border-box;}
-
-body 
-{background-color: #777;
-	width: 960px}
-
-<div> {margin: 5px}
-
-
-
-p {}
-{font-size: 18px}
-{font-family: "Helvetica Neue"}
-
- 
-
-
-.header
-{background: #ebebeb;
-text-align: center;
-height: 20px;
-width: 960px;
-margin: 5px;
-padding-top: 
-}
-
-
-
-.nav 
-{ background: #ebebeb;
-  text-align: center;
+body {
   width: 960px;
-  margin: 5px;
-  float}
-
-
-
-/*  -----------------------------  */
-.leftbox{width: 480px;
+  margin: auto;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 34px;
+  color: #777;
+  background: #777;
 }
 
-p.clear {
-    clear: both;
-}
-.section
-{ background: #ebebeb;
- text-align: center;
- margin: 5px,
- auto;
- float: left;
- }
-
-
-			#article
-
-				{text-align: center;
-			      margin: auto;
-			      background: #777;
-			      float: left;
-			      position: relative;
-			     }
-
-			
-			.h1
-				{background: #ebebeb;
- 				 text-align: center;
- 				 
-
- 				}
-
-
-			.pbox
-				{background: #ebebeb;	
-				text-align: center;
-				
-			
-  				} 
-
-
-p.clear {
-    clear: both;
-}
-
-/*  -----------------------------  */
-
-.aside
- {background: #ebebeb;	
+header,
+nav,
+section,
+aside,
+footer {
+  display: block;
+  padding: 10px;
+  margin: 10px;
   text-align: center;
-  	width: 480px;
-  	margin: 5px, auto;
-  	float: left
-  	}
-
-p.clear {
-    clear: both;
+  background: #ebebeb;
 }
 
-/*  -----------------------------  */
+section {
+  display: block;
+  float: left;
+  width: 495px;
+  height: 267px;
+  overflow: hidden;
+}
 
+aside {
+  display: block;
+  float: right;
+  width: 40%;
+  height: 267px;
+  overflow: hidden;
+}
 
-.footer
-{background: #ebebeb;
-text-align: center;
-margin: 5px;
-width: 960px;
-float: left;
+article {
+  padding: 10px;
+  color: #ebebeb;
+  background: #777;
+}
 
+.clear {
+  clear: both;
+}
 
+h1,
+p {
+  width: 90%;
+  padding: 10px;
+  margin: 10px;
+  color: #777;
+  text-align: center;
+  background: #ebebeb;
 }
